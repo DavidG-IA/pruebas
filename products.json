@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "name": "iPhone 15 Pro",
+      "brand": "Apple",
+      "category": "electronics",
+      "model": "128GB",
+      "max_price": 1199.00,
+      "min_price": 800.00,
+      "target_marketplaces": ["amazon", "mercadolibre", "ebay"],
+      "active": true,
+      "notes": "Buscar versión desbloqueada"
+    },
+    {
+      "name": "PlayStation 5",
+      "brand": "Sony",
+      "category": "electronics",
+      "model": "Digital Edition",
+      "max_price": 449.00,
+      "target_marketplaces": ["amazon", "mercadolibre"],
+      "active": true
+    },
+    {
+      "name": "Nintendo Switch OLED",
+      "brand": "Nintendo",
+      "category": "electronics",
+      "max_price": 349.00,
+      "target_marketplaces": ["amazon", "ebay"],
+      "active": true
+    },
+    {
+      "name": "MacBook Air M3",
+      "brand": "Apple",
+      "category": "electronics",
+      "model": "15 pulgadas",
+      "max_price": 1299.00,
+      "min_price": 1000.00,
+      "target_marketplaces": ["amazon", "mercadolibre"],
+      "active": true
+    },
+    {
+      "name": "AirPods Pro",
+      "brand": "Apple",
+      "category": "electronics",
+      "model": "2da generación",
+      "max_price": 249.00,
+      "target_marketplaces": ["amazon", "mercadolibre", "ebay"],
+      "active": true
+    },
+    {
+      "name": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "category": "electronics",
+      "max_price": 1199.00,
+      "target_marketplaces": ["amazon", "mercadolibre"],
+      "active": false,
+      "notes": "Pausado temporalmente"
+    }
+  ]
+}

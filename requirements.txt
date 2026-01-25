@@ -1,0 +1,32 @@
+# Marketplace Price Checker - Dependencies
+
+# No hay dependencias externas requeridas para la funcionalidad básica
+# La aplicación usa solo la biblioteca estándar de Python 3.8+
+
+# Dependencias opcionales para funcionalidad extendida:
+
+# Para scraping real (opcional)
+# requests>=2.28.0
+# beautifulsoup4>=4.11.0
+# lxml>=4.9.0
+
+# Para APIs oficiales (opcional)
+# python-amazon-paapi>=4.1.0  # Amazon Product Advertising API
+# meli-sdk>=1.0.0            # MercadoLibre SDK
+
+# Para scheduling de monitoreo (opcional)
+# schedule>=1.1.0
+# apscheduler>=3.9.0
+
+# Para notificaciones avanzadas (opcional)
+# python-telegram-bot>=20.0
+# slack-sdk>=3.19.0
+
+# Para interfaz web (opcional)
+# flask>=2.2.0
+# fastapi>=0.95.0
+# uvicorn>=0.20.0
+
+# Para tests
+# pytest>=7.2.0
+# pytest-cov>=4.0.0

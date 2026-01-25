@@ -1,0 +1,29 @@
+{
+  "log_level": "INFO",
+  "cache_enabled": true,
+  "cache_dir": ".cache/marketplace_checker",
+  "rate_limit_delay": 1.0,
+
+  "amazon_region": "amazon",
+  "amazon_api_key": null,
+  "amazon_affiliate_tag": null,
+
+  "mercadolibre_country": "MLM",
+  "mercadolibre_token": null,
+
+  "ebay_site": "US",
+  "ebay_app_id": null,
+  "ebay_cert_id": null,
+
+  "alerts_storage_path": ".data/alerts",
+
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "email_from": null,
+  "email_to": [],
+
+  "telegram_token": null,
+  "telegram_chat_id": null,
+
+  "products_file": "products.json"
+}
