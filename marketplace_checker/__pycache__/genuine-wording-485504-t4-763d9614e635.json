@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "genuine-wording-485504-t4",
+  "private_key_id": "763d9614e635432bb289cb61594c838e375641a6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDT7TPHoTG5RR9N\nX8KNePDdEl+PQ2ZRxnnXdEPWfjblqzREo2+huaDiTg72fZtWHtnXUIU9BFlGl5Rf\nQJEjvbb7Q/YLjf0ZINTo8aKxib7JVtUSKAfvEhFhfjC5cie2LYKLLKlKu83J5V81\nvZT091EGptPl7WFf4lVT8BTzuSQjxJGdWUMwCU7Oayf4OvwmMEKZlkmkkuWtmL5w\nnwHe8hUbzB5DNeVM7braHG9mg0vIJXETHQQqov2CSebqAvs8Dm42V0D7RbFaoCZO\nvuA9/mxfroQR7G5FsDuLtTnuVyWPlKcLTZM3rG09CIhu13Y8tQJnlHeVrRxfuysi\nM18KkUXTAgMBAAECggEAANQJRehTmY9cGV5FTm5VEwXu82eGcLZg6ioQNUPmMsEj\nZ5EWrwL9wteSzauLuxnA8tb7CrE8KKI+Y+Oj2TaX67Z6gwQMjGlGZHnEMprMcPQB\nVaI9mbKNVaf7pZXl24/qykl1WkmOnddXbPbvN9/g2LDarigkZT0hcT4hjtUFudGC\nK7mDU5zw+DVmodHr0/nC3+9jiLtuUbx0lNXbnw7qBgnBmFaOCP6vdeRi6526IrVu\npPKTSJ/I/XkLabxfnEOwwRPKUNzMedvjtdB4JK84ncnQiipyEM+TikJeD1A/gn83\nEDw6WxFtLnDu5XEDqsgmQwyuLsKjiynbOA+B/iyqoQKBgQDpZQW+xDs5Ac8ar8Dh\nstLai9vdVD1nvlPushXktcXJT2pe9tysvpwaLXkoBKpRjDyeZT/eaT36r1xmqKIP\n7V2DzZCHzQLeXDFdT7z3A5PPxShjqtSqJorgRBMvNsDRgBlKyj24aI9dmpPwYah2\n2JNyxZMO5Vy7YY33Fur0kmA78wKBgQDoc+IpqV4y0NPooI79V5AqWD4/TsdhPMVh\nSPokd9Kry4L1xAtAuqplz10A9nBq9yaqDF3ZAYTVlw+wFfqU/PqtCbEGCE2SJLqK\nDZfIXVoAZ5McGz0mrSfSkAFO9FZ+YkImD1euFREXN6ui5fnH8VSJHn8zXglLbeYh\noxDv/SSmoQKBgQCG2dHJ+UNmmr744leFkHb3wxtT9FpOWM/R+J9huA0BVZtWJzg1\nryQuk9uO3bMyzt4vfry6WwBumWfAAOsyXKlNgDZj4HYp2AbFrU63Qh/jSj0d6RRb\nA032ah7ThsU9xs/WQKgMpo0/PhMALszRbi0zgSiI0MkVkzYdb+ZtTS3BNQKBgQDC\nUtYXo/oWmxL73vWKfqALdjebbv0oocgT2xEaWX0plvlFAX2ywBnhAKgsPNif4ztU\nXwA5gJaOhDleKBGSaaYZ8AcoFtraOJAlBtYDb17lBbEqhu7pHUo0MaSWX5bLEtNf\nw+W1pvDhqu12QbE9X9cexfrqc0tr3lTLe+mV5taz4QKBgD5VGPwQp9B2IjOak9Aa\nMzk+lEGedGszQ+CgBxNwlZvhqLM/L1p0woV2NhYV1Op9TKxETBjIt77dMpI6e7mN\nkcJA3hahHhUvAZpWEyKzweIHr0prQhoZTfaHiTqInhi9IL3nOh7rwORRlKA998vL\npPmQ38m5xq7csD+jdDIeSBIW\n-----END PRIVATE KEY-----\n",
+  "client_email": "english-learning-app@genuine-wording-485504-t4.iam.gserviceaccount.com",
+  "client_id": "110556390466496315924",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/english-learning-app%40genuine-wording-485504-t4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
