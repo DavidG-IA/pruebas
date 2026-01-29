@@ -21,7 +21,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-claude_service = ClaudeService(os.getenv("ANTHROPIC_API_KEY"))
+claude_service = ClaudeService(os.getenv("GEMINI_API_KEY"))
 tts_service = TTSService()
 stt_service = STTService()
 

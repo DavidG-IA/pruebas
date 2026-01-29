@@ -1,11 +1,13 @@
-import anthropic
+import google.generativeai as genai
 import json
 from typing import Dict, Any
+import os
 
 
-class ClaudeService:
+class ClaudeService:  # Mantenemos el nombre para no cambiar otros archivos
     def __init__(self, api_key: str):
-        self.client = anthropic.Anthropic(api_key=api_key)
+        genai.configure(api_key=api_key)
+        self.model = genai.GenerativeModel('gemini-pro')
 
     async def generate_exercise(
         self,
@@ -24,16 +26,10 @@ class ClaudeService:
 
         prompt = prompts.get(exercise_type)
 
-        message = self.client.messages.create(
-            model="claude-sonnet-4-20250514",
-            max_tokens=4000,
-            messages=[{
-                "role": "user",
-                "content": prompt
-            }]
-        )
+        response = self.model.generate_content(prompt)
+        content = response.text
 
-        content = message.content[0].text
+        # Limpia el JSON
         content = content.replace("```json", "").replace("```", "").strip()
 
         return json.loads(content)
@@ -137,13 +133,8 @@ Dame un análisis en JSON:
   "suggestions": ["sugerencia1", "sugerencia2"]
 }}"""
 
-        message = self.client.messages.create(
-            model="claude-sonnet-4-20250514",
-            max_tokens=1000,
-            messages=[{"role": "user", "content": prompt}]
-        )
-
-        content = message.content[0].text
+        response = self.model.generate_content(prompt)
+        content = response.text
         content = content.replace("```json", "").replace("```", "").strip()
 
         return json.loads(content)
